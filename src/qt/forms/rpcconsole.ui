@@ -58,7 +58,7 @@
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
          </property>
-         <property name="textInteractionFlSHLD">
+         <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
@@ -81,7 +81,7 @@
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
          </property>
-         <property name="textInteractionFlSHLD">
+         <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
@@ -107,7 +107,7 @@
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
          </property>
-         <property name="textInteractionFlSHLD">
+         <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
@@ -130,7 +130,7 @@
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
          </property>
-         <property name="textInteractionFlSHLD">
+         <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
@@ -153,7 +153,7 @@
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
          </property>
-         <property name="textInteractionFlSHLD">
+         <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
@@ -189,7 +189,7 @@
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
          </property>
-         <property name="textInteractionFlSHLD">
+         <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
@@ -242,7 +242,7 @@
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
          </property>
-         <property name="textInteractionFlSHLD">
+         <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
@@ -265,7 +265,7 @@
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
          </property>
-         <property name="textInteractionFlSHLD">
+         <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
         </widget>
@@ -288,7 +288,7 @@
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
          </property>
-         <property name="textInteractionFlSHLD">
+         <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
         </widget>

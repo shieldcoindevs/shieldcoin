@@ -56,7 +56,7 @@
      <property name="tabChangesFocus">
       <bool>true</bool>
      </property>
-     <property name="textInteractionFlSHLD">
+     <property name="textInteractionFlags">
       <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
      </property>
     </widget>

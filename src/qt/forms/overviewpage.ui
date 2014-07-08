@@ -107,7 +107,7 @@
             <property name="text">
              <string notr="true">0 SHLD</string>
             </property>
-            <property name="textInteractionFlSHLD">
+            <property name="textInteractionFlags">
              <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
             </property>
            </widget>
@@ -136,7 +136,7 @@
             <property name="text">
              <string notr="true">0 SHLD</string>
             </property>
-            <property name="textInteractionFlSHLD">
+            <property name="textInteractionFlags">
              <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
             </property>
            </widget>
@@ -165,7 +165,7 @@
             <property name="text">
              <string notr="true">0 SHLD</string>
             </property>
-            <property name="textInteractionFlSHLD">
+            <property name="textInteractionFlags">
              <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
             </property>
            </widget>
@@ -191,7 +191,7 @@
             <property name="text">
              <string notr="true">0 SHLD</string>
             </property>
-            <property name="textInteractionFlSHLD">
+            <property name="textInteractionFlags">
              <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
             </property>
            </widget>
@@ -227,7 +227,7 @@
             <property name="text">
              <string notr="true">0 SHLD</string>
             </property>
-            <property name="textInteractionFlSHLD">
+            <property name="textInteractionFlags">
              <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
             </property>
            </widget>
