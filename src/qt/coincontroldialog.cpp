@@ -15,7 +15,7 @@
 #include <QCursor>
 #include <QDateTime>
 #include <QDialogButtonBox>
-#include <QFlSHLD>
+#include <Qflags>
 #include <QIcon>
 #include <QString>
 #include <QTreeWidget>
@@ -580,8 +580,8 @@ void CoinControlDialog::updateView()
     ui->treeWidget->clear();
     ui->treeWidget->setEnabled(false); // performance, otherwise updateLabels would be called for every checked checkbox
     ui->treeWidget->setAlternatingRowColors(!treeMode);
-    QFlSHLD<Qt::ItemFlag> flgCheckbox=Qt::ItemIsSelectable | Qt::ItemIsEnabled | Qt::ItemIsUserCheckable;
-    QFlSHLD<Qt::ItemFlag> flgTristate=Qt::ItemIsSelectable | Qt::ItemIsEnabled | Qt::ItemIsUserCheckable | Qt::ItemIsTristate;    
+    Qflags<Qt::ItemFlag> flgCheckbox=Qt::ItemIsSelectable | Qt::ItemIsEnabled | Qt::ItemIsUserCheckable;
+    Qflags<Qt::ItemFlag> flgTristate=Qt::ItemIsSelectable | Qt::ItemIsEnabled | Qt::ItemIsUserCheckable | Qt::ItemIsTristate;    
     
     int nDisplayUnit = BitcoinUnits::BTC;
     if (model && model->getOptionsModel())
@@ -605,7 +605,7 @@ void CoinControlDialog::updateView()
             // wallet address
             ui->treeWidget->addTopLevelItem(itemWalletAddress);
 
-            itemWalletAddress->setFlSHLD(flgTristate);
+            itemWalletAddress->setflags(flgTristate);
             itemWalletAddress->setCheckState(COLUMN_CHECKBOX,Qt::Unchecked);
             
             for (int i = 0; i < ui->treeWidget->columnCount(); i++)
@@ -631,7 +631,7 @@ void CoinControlDialog::updateView()
             QTreeWidgetItem *itemOutput;
             if (treeMode)    itemOutput = new QTreeWidgetItem(itemWalletAddress);
             else             itemOutput = new QTreeWidgetItem(ui->treeWidget);
-            itemOutput->setFlSHLD(flgCheckbox);
+            itemOutput->setflags(flgCheckbox);
             itemOutput->setCheckState(COLUMN_CHECKBOX,Qt::Unchecked);
                 
             // address
