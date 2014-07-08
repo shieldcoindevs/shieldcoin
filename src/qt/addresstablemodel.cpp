@@ -281,13 +281,13 @@ QVariant AddressTableModel::headerData(int section, Qt::Orientation orientation,
     return QVariant();
 }
 
-Qt::Itemflags AddressTableModel::flags(const QModelIndex &index) const
+Qt::ItemFlags AddressTableModel::Flags(const QModelIndex &index) const
 {
     if(!index.isValid())
         return 0;
     AddressTableEntry *rec = static_cast<AddressTableEntry*>(index.internalPointer());
 
-    Qt::Itemflags retval = Qt::ItemIsSelectable | Qt::ItemIsEnabled;
+    Qt::ItemFlags retval = Qt::ItemIsSelectable | Qt::ItemIsEnabled;
     // Can edit address and label for sending addresses,
     // and only label for receiving addresses.
     if(rec->type == AddressTableEntry::Sending ||
